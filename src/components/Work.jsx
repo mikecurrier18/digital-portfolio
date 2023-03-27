@@ -9,7 +9,9 @@ const Work = () => {
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
             <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#ee3756]'>Work</p>
-            <p className='py-6'>See examples of my recent projects. Hover to see the live project and/or the code.</p>
+            <p className='py-6'>See examples of my recent projects. Hover to get a link to each live website! These projects were all
+            made using HTML, CSS, JavaScript, Bootstrap, and PHP when necassary. Each site's design is tailored for 
+            a unique demographic and audience.</p>
         </div>
 
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
@@ -22,11 +24,10 @@ const Work = () => {
                     </span>
                     <div className='pt-8 text-center'>
                         <a target="blank" href="https://www.playtimelearningacademy.com/index.html">
-                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo
+                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>See full site
                             </button>
                         </a>
                         <a href="/">
-                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                         </a>
                     </div>
                 </div>
@@ -40,12 +41,11 @@ const Work = () => {
                         Bojano Homes
                     </span>
                     <div className='pt-8 text-center'>
-                        <a href="/">
-                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo
+                        <a target="_blank" href="https://www.bojanohomes.com">
+                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>See full site
                             </button>
                         </a>
                         <a href="/">
-                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                         </a>
                     </div>
                 </div>
@@ -59,12 +59,11 @@ const Work = () => {
                         iRentHotels.com
                     </span>
                     <div className='pt-8 text-center'>
-                        <a href="/">
-                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo
+                        <a target="_blank" href="https://irenthotels.com">
+                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>See full site
                             </button>
                         </a>
                         <a href="/">
-                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                         </a>
                     </div>
                 </div>

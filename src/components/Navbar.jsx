@@ -94,24 +94,26 @@ const Navbar = () => {
             <ul className={!nav ?'true': 'flex fixed flex-col top-[35%] left-0'}>
 
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-                    <a className='flex justify-between items-center w-full text-gray-300' href="/">
+                    <a className='flex justify-between items-center w-full text-gray-300' href="https://github.com/mikecurrier18/">
                         GitHub <FaGithub size={30} />
                     </a>
                 </li>
 
 
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-                    <a className='flex justify-between items-center w-full text-gray-300' href="/">
+                    <a className='flex justify-between items-center w-full text-gray-300' href="https://www.linkedin.com/in/michael-currier-26ba77185/">
                         Linkedin <FaLinkedin size={30} />
                     </a>
                 </li>
 
                 
+                    <Link  to="contact" smooth={true}  duration={500} >
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#4a235a]'>
                     <a className='flex justify-between items-center w-full text-gray-300' href="/">
                         Email <HiOutlineMail size={30} />
                     </a>
                 </li>
+                </Link>
 
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#ee3756]'>
                     <a className='flex justify-between items-center w-full text-gray-300' href="/">

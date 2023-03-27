@@ -18,7 +18,16 @@ const About = () => {
                     <p>Hi, I'm Michael - glad you could make it! Please feel free to look around.</p>
                 </div>
                 <div>
-                    <p>Hi, I'm Michael, glad you could make it! Please feel free to look around.</p>
+                    <p>I'm a 22-year-old fourth year Information Science major (with a Web Development Tech. concentration) 
+                        at the University of South Florida (Tampa). I've been taking on freelance web development 
+                        projects since the age of 17 for small/medium sized businesses in the Tampa area with no  
+                        particular goal in mind: I just really like developing. I love the process of learning something new or 
+                        discovering a better way to build my sites for both front-end and back-end development. For front-end 
+                        development, I like to use HTML, CSS, Javascript, React, Bootstrap, and Tailwind. For back-end, I normally 
+                        use PHP, but like to use Java or Python when possible.
+
+                    
+                    </p>
                 </div>
             </div>
         </div>
