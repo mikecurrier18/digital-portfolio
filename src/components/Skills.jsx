@@ -7,6 +7,7 @@ import GitHub from '../assets/github.png'
 import Tailwind from '../assets/tailwind.png'
 import Bootstrap from '../assets/bootstrap.png'
 import Java from '../assets/java.png'
+import Mern from '../assets/mern.png'
 
 const Skills = () => {
   return (
@@ -37,8 +38,8 @@ const Skills = () => {
                     <p className='my-4'>React</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto pt-4' src={Bootstrap} alt="Bootstrap Icon" />
-                    <p className='my-4'>Bootstrap</p>
+                    <img className='mern-img mx-auto pt-4' src={Mern} alt="MERN stack image" />
+                    <p className='my-4'>MERN stack</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto pt-4' src={Tailwind} alt="Tailwind Icon" />
