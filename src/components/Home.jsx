@@ -9,10 +9,10 @@ const Home = () => {
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-2xl text-[#ee3756]">Hello and welcome, I'm</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd4f6]">
-          Michael Currier
+          Michael Currier,
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b8]">
-          I'm a Full Stack Developer
+          I'm a Web Developer
         </h2>
         <p className="text-[#8892b8] py-4 max-w-[700px]">
           I'm a full-stack developer with a wide range of freelance

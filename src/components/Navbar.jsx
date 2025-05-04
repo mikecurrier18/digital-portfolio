@@ -4,7 +4,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/logo1.png";
 import { Link } from "react-scroll";
-
+import Resume from "../assets/resume.pdf";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
         <Link to="home" smooth={true} duration={500}>
-          <img src={Logo} alt="Logo Image" style={{ height: "50px" }} />
+          <img src={Logo} alt="Logo" style={{ height: "50px" }} />
         </Link>
       </div>
 
@@ -123,7 +123,8 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#ee3756]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href={Resume}
+              target="_blank"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

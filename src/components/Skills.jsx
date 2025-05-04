@@ -8,6 +8,7 @@ import PHP from "../assets/php.png";
 import node from "../assets/node.png";
 import mongo from "../assets/mongo.png";
 import sql from "../assets/sql.png";
+import nextjs from "../assets/nextjs.webp"
 
 const Skills = () => {
   return (
@@ -49,6 +50,10 @@ const Skills = () => {
             <p className="my-4">React</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto pt-4" src={nextjs} alt="MySQL Icon" />
+            <p className="my-4">Next.js</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto pt-4" src={node} alt="Node.js Icon" />
             <p className="my-4">Node.js</p>
           </div>
@@ -65,10 +70,7 @@ const Skills = () => {
             <img className="w-20 mx-auto pt-4" src={mongo} alt="MongoDB Icon" />
             <p className="my-4">MongoDB</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto pt-4" src={sql} alt="MySQL Icon" />
-            <p className="my-4">MySQL</p>
-          </div>
+          
         </div>
       </div>
     </div>
