@@ -7,7 +7,6 @@ import Java from "../assets/java.png";
 import PHP from "../assets/php.png";
 import node from "../assets/node.png";
 import mongo from "../assets/mongo.png";
-import sql from "../assets/sql.png";
 import nextjs from "../assets/nextjs.webp"
 
 const Skills = () => {

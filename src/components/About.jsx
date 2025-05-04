@@ -22,7 +22,7 @@ const About = () => {
           </div>
           <div>
             <p>
-              I'm a 22-year-old recent-graduate from the University of South Florida 
+              I'm a graduate from the University of South Florida 
               with a B.S. in Information Science (Web Development Tech. concentration). 
               I've been taking on freelance web development
               projects since the age of 17 for small/medium sized businesses in
