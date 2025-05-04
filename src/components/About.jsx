@@ -22,7 +22,7 @@ const About = () => {
           </div>
           <div>
             <p>
-              I'm a graduate from the University of South Florida 
+              I'm a 24 year-old graduate from the University of South Florida 
               with a B.S. in Information Science (Web Development Tech. concentration). 
               I've been taking on freelance web development
               projects since the age of 17 for small/medium sized businesses in
@@ -30,8 +30,8 @@ const About = () => {
               developing. I love the process of learning something new or
               discovering a better way to build my sites for both front-end and
               back-end development. For front-end development, I like to use
-              HTML, CSS, Javascript, React.js, Next.js, and Tailwind. For
-              back-end, I use a wide range of languages/frameworks including PHP, Node.js, Java, and Python.
+              HTML & CSS, Javascript/TypeScript, React.js, Next.js, and Tailwind. For
+              back-end, I use a wide range of languages/frameworks including PHP, Node.js, Java, and Python. Regardless, I always take the time before starting each project to make sure the technologies I'm using are the best ones available for the project's unique needs.
             </p>
           </div>
         </div>
